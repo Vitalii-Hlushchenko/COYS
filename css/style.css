@@ -1,0 +1,222 @@
+/* ****HEADER SECTION****** */
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2.6rem 0 2.6rem;
+    height: 9rem;
+    background-color: #F9F8F6;
+}
+
+.nav-list{
+    display: flex;
+    list-style: none;
+    gap: 2.5rem;
+
+}
+/* .nav-list-link:link{
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 21px;
+    color: #58595B;
+    text-transform: uppercase;
+    text-decoration: none;
+
+
+} */
+
+
+
+
+.header-item{
+    display: flex;
+    align-items: center;
+    gap:2.4rem;
+}
+
+
+
+.header-icons{
+    display: flex;
+    gap: 0.8rem;    
+    align-items: center;
+
+    
+}
+
+.header-icon{
+    height: 1.8rem;
+    width: 1.8rem;
+    color: #58595B;
+}
+
+.underline{
+    text-decoration: underline !important;
+}
+
+.logo{
+padding-left: 4rem;
+height: 3.8rem;
+width: 16rem;
+}
+
+/* ****SECTION HERO******* */
+
+
+
+.hero-content{
+
+    z-index: 2;
+    display: flex;
+    position:absolute;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+    width: 67rem;
+    height: 60rem;
+    /* margin-left: 28%;
+    margin-top: 25.4rem; */
+}
+
+/* .slider-container{
+    padding-bottom: 10rem;
+} */
+
+.slider{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 120vh;
+    /* height: 120vh; */
+    position: relative;
+    z-index: 1;
+    
+
+}
+
+
+
+.slider-left{
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1) ), url(../img/hero\ 1.png),rgba(0, 0, 0, 0.884);
+    background-size: cover;
+}
+.slider-right{
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1) ), url(../img/hero\ 2.png);
+    background-size: cover;
+
+}
+
+.hero-container{
+    max-width: 130rem;
+    margin: 0 auto;
+    /* border: 5px solid red; */
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-text{
+    background:#fff;
+    color: #58595B;
+    width: 42rem;
+    text-align: center;
+    padding: 1.8rem 1.8rem;
+}
+
+.hero-text p{
+    font-size: 2.4rem;
+    font-weight: 300;
+
+}
+
+.symbol{
+    margin-top: 3.5rem;
+}
+
+.dots{
+    
+    display: flex;
+    gap: 1.8rem;
+    margin-top: 6.2rem ;
+
+    }
+
+.dot{
+    width: 14px;
+height: 14px;
+border: 1px solid #fff;
+border-radius: 50%;
+cursor: pointer;
+background: none;
+transition: all 0.4s;
+}
+
+.dot--fill{
+    background-color: #fff;
+}
+
+.dot:hover,
+.dot:active{
+    background-color: #fff;
+
+}
+
+/* SECTION CLOTHES CHOICE */
+
+
+.section-clothes-choice{
+    
+}
+
+
+
+.clothes-choice{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.clothes-choice img{
+    display: inline-block;
+    max-width: 70%;
+    height: auto;
+/* height: 100%;
+width: 80%; */
+
+}
+.woman-clothes{
+    display: flex;
+    justify-content: start;
+    align-items: flex-end;
+    background-color: #F4D8D4;
+    padding-top: 3.1rem;
+    padding-left: 4.8rem;
+    
+    
+    
+
+}
+.man-clothes{
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    background-color: #8895A4;
+    padding-right: 3.2rem;
+
+
+}
+
+.woman-btn{
+    position:absolute;
+    left: 20.5rem;
+    top: 108rem;
+}
+
+.man-btn{
+    position: absolute;
+    right: 20.5rem;
+    top: 108rem;
+}
+
+
