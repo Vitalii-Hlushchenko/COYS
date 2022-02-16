@@ -75,7 +75,13 @@
   html {
     font-size: 50%;
   }
+  .nav-list{
+    gap: 1.5rem;
+  }
   
+  .logo{
+    /* transform: scale(0.9); */
+  }
 }
 
 /* 728px */
@@ -135,6 +141,13 @@
   }
   .symbol {
     width: 25%;
+  }
+
+  .carousel-indicators  {
+  
+    gap: 0.6rem;
+    margin-bottom: 0;
+  
   }
 }
 
